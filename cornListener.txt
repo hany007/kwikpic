@@ -1,0 +1,1 @@
+To strat cornListener:# /etc/init.d/cronListener startTo stop cornListener:# /etc/init.d/cronListener stopTo restart cornListener:# /etc/init.d/cronListener restart

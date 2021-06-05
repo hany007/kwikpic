@@ -1,0 +1,13 @@
+#Function to Rerurn the unique code
+selfie_name = 'pual-12345.jpg'
+res = ''.join(filter(lambda i: i.isdigit(),selfie_name ))
+ucode=str(res)
+print("unique code is : " + ucode)
+
+#Function to upload the selfie to an S3 bucket 
+def upload_file(selfie_name, kiwikpic, object_name=None):
+  
+
+    s3 = boto3.client('s3')
+with open("selfie_name", "rb") as f:
+    s3.upload_fileobj(f, "kwikpic", "ucode")

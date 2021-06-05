@@ -1,0 +1,1 @@
+To retrieve a single object for Django model with primary key=7obj = Class.objects.get(pk=7)

@@ -1,0 +1,1 @@
+Command that will read last 200 lines of a log file:tail -200 cron.logs
