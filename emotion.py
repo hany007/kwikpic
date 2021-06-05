@@ -5,7 +5,7 @@ from keras.layers.core import Flatten, Dense, Dropout
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D
 from keras.optimizers import SGD
 import cv2
-emotion_data = pd.read_csv('/content/drive/My Drive/Emotion_Detection /fer2013.csv')
+emotion_data = pd.read_csv('/Users/sakibjwd/Downloads/fer2013.csv')
 print('emotion_data')
 X_train = []
 y_train = []
